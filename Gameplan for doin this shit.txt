@@ -1,0 +1,24 @@
+THIS FUCKING WORKS!!!!
+----------------------
+In CMD line enter:
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" "C:\Users\tyler\Desktop\movies\My Neighbor Totoro (1988) 1080p [Jpn & Eng] Blu-ray (Studio Ghibli).mp4"
+
+
+Next step is to encorporate these actions in a java program...research more on that 
+tomorrow.
+
+
+
+
+
+----------------------
+might be helpful later
+----------------------
+1) 
+google: "automate a vlc player in java"
+2)
+put this into windows explorer to get to all applications folder:
+%windir%\explorer.exe shell:::{4234d49b-0245-4df3-b780-3893943456e1}
+
+
+
