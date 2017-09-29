@@ -54,7 +54,7 @@ public class Main extends Application {
         primaryStage.setTitle("MyFlix");
         primaryStage.setMaximized(true);
         primaryStage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("f"));
-//        primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("MyFlixIcon2.ico")));
+        primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("MyFlixIcon.ico")));
 
 
         //aligning elements and display gui
