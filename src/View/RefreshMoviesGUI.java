@@ -32,10 +32,6 @@ public class RefreshMoviesGUI {
     private ArrayList<Movie> UnrefreshedMovies = new ArrayList<Movie>();
 
 
-
-
-
-
     public void display() {
 
         //initializes the Movies needed and adds them to the AllMovies arrayList

@@ -22,12 +22,10 @@ public class Users {
     public void instantiateUsers(){
         try {
 
-
-
             //create array list of users from UsersInfo text file storing users info in csv format
-            ArrayList<String> linesOfUsers = (ArrayList<String>) Files.readAllLines(Paths.get( "\\UsersInfo"));
+            ArrayList<String> linesOfUsersInfo = (ArrayList<String>) Files.readAllLines(Paths.get( "UsersInfo.txt"));
 
-            for (String line:linesOfUsers) {
+            for (String line:linesOfUsersInfo) {
                 line.split(",");
                 System.out.println(line);
             }
@@ -35,7 +33,6 @@ public class Users {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
 

@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class Library {
 
     private String myflixLocation = SetupGUI.display() ;
-    //    String myflixLocation = "C:\\Users\\tyler\\Desktop\\PersonalProjects\\Java\\MyFlix";
+//    String myflixLocation = "C:\\Users\\tyler\\Desktop\\PersonalProjects\\Java\\MyFlix";
     FileWriter out = new FileWriter(myflixLocation + "\\videoFileInfo.txt");
     private File UsersInfoFile = new File( myflixLocation + "\\videoFileInfo.txt");
     private String MyFlixLoc = myflixLocation;

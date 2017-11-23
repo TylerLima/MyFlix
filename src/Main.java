@@ -62,7 +62,7 @@ public class Main extends Application {
 
         //Create list of users to instantiate MyFlix users
         Users allUsers = new Users();
-//        allUsers.instantiateUsers();
+        allUsers.instantiateUsers();
 
 //        for (User newUser : allUsers.getAllUsers()) {
 //            String username = newUser.toString();
